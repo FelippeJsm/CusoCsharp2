@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace CursoCsharp2.Properties
+namespace Felippe_2.Properties
 {
 
 

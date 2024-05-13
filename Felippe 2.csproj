@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AFE9CA68-BED6-425E-B144-6C60067F5899}</ProjectGuid>
+    <ProjectGuid>{6958B309-76E3-4806-86E9-0DBF34E69A12}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>CursoCsharp2</RootNamespace>
-    <AssemblyName>CursoCsharp2</AssemblyName>
+    <RootNamespace>Felippe_2</RootNamespace>
+    <AssemblyName>Felippe 2</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,8 +52,65 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="F_CheckBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_CheckBox.Designer.cs">
+      <DependentUpon>F_CheckBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_CheckBox2.2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_CheckBox2.2.Designer.cs">
+      <DependentUpon>F_CheckBox2.2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_CheckedListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_CheckedListBox.Designer.cs">
+      <DependentUpon>F_CheckedListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_ComboBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_ComboBox.Designer.cs">
+      <DependentUpon>F_ComboBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_DateTimePicker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_DateTimePicker.Designer.cs">
+      <DependentUpon>F_DateTimePicker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="F_ListaNomes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="F_ListaNomes.Designer.cs">
+      <DependentUpon>F_ListaNomes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_CheckBox.resx">
+      <DependentUpon>F_CheckBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_CheckBox2.2.resx">
+      <DependentUpon>F_CheckBox2.2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_CheckedListBox.resx">
+      <DependentUpon>F_CheckedListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_ComboBox.resx">
+      <DependentUpon>F_ComboBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_DateTimePicker.resx">
+      <DependentUpon>F_DateTimePicker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="F_ListaNomes.resx">
+      <DependentUpon>F_ListaNomes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
